@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/template/css/style.css">
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+	/>
+    <title>Муралы города Усть-Каменогорск</title>
+</head>
+<body>
+<div class="container">
+	
+	<h1 class="title">Муралы города Усть-каменогорск</h1>
+	<div style="margin-top: 50px; margin-bottom: 50px" id="map"></div>
+	<!-- Основной слайдер -->
+	<div class="swiper mainSwiper">
+	  <div class="swiper-wrapper">
+
+		<!-- Сцена 0 -->
+		<div class="swiper-slide scene" data-scene="0">
+			<div class="zoom-wrap">
+				<img class="scene-img" src="/template/img/murals/mural-1.jpg" alt="Сцена 1">
+			</div>
+			
+		  <button class="hotspot" style="top:50%; left:95%;" data-go="1" title="Вперёд">➜</button>
+		  <button class="hotspot" style="top:50%; left:5%;" data-go="8" title="Назад">⬅</button>
+			<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-1.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 1 -->
+		<div class="swiper-slide scene" data-scene="1">
+			<div class="zoom-wrap">
+				<img class="scene-img" src="/template/img/murals/mural-2.png" alt="Сцена 2">
+			</div>
+		  <button class="hotspot" style="top:50%; left:5%;" data-go="0" title="Назад">⬅</button>
+		  <button class="hotspot" style="top:50%; left:95%;" data-go="2" title="Вперёд">➜</button>
+			<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-2.png" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 3 -->
+		<div class="swiper-slide scene" data-scene="2">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-3.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="1" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="3" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-3.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 4 -->
+		<div class="swiper-slide scene" data-scene="3">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-4.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="2" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="4" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-4.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 5 -->
+		<div class="swiper-slide scene" data-scene="4">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-5.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="3" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="5" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-5.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 6 -->
+		<div class="swiper-slide scene" data-scene="5">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-6.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="4" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="6" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-6.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 7 -->
+		<div class="swiper-slide scene" data-scene="6">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-7.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="5" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="7" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-7.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 8 -->
+		<div class="swiper-slide scene" data-scene="7">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-8.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="6" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="8" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-8.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+
+		<!-- Сцена 9 -->
+		<div class="swiper-slide scene" data-scene="8">
+			<div class="zoom-wrap">
+		  		<img class="scene-img" src="/template/img/murals/mural-9.jpg" alt="Сцена 3">
+		  	</div>
+			<button class="hotspot" style="top:50%; left:5%;" data-go="7" title="Назад">⬅</button>
+			<button class="hotspot" style="top:50%; left:95%;" data-go="0" title="Вперёд">➜</button>
+		  	<div class="zoom-ui">
+				<button class="zbtn" data-zoom="in" type="button">+</button>
+				<button class="zbtn" data-zoom="out" type="button">−</button>
+				<button class="zbtn" data-zoom="reset" type="button">Сбросить</button>
+			</div>
+			<img class="scene-img" src="/template/img/murals/mural-9.jpg" alt="">
+			<div class="lens" aria-hidden="true"></div>
+		</div>
+	  </div>
+		<!-- Кнопка "Муралы" (как на примере) -->
+		<button class="muralsBtn" type="button">Муралы</button>
+
+		<!-- Панель со списком -->
+		<div class="muralsPanel" id="muralsPanel" hidden>
+			<div class="muralsList">
+				<button class="muralsItem" data-go="0" type="button">Весь Университет</button>
+				<button class="muralsItem" data-go="1" type="button">Университет</button>
+				<button class="muralsItem" data-go="2" type="button">Каф. "Технология и Стандартизация"</button>
+
+			</div>
+		</div>
+
+		<!-- фон-затемнение внутри картинки -->
+		<div class="muralsBackdrop" id="muralsBackdrop" hidden></div>
+
+	  <div class="nav">
+		<button class="nav-btn prev" type="button">‹</button>
+		<button class="nav-btn next" type="button">›</button>
+	  </div>
+	</div>
+
+	<!-- Превью снизу -->
+	<div style="margin-bottom: 50px;" class="swiper thumbsSwiper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-1.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-2.png" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-3.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-4.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-5.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-6.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-7.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-8.jpg" alt=""></div>
+		<div class="swiper-slide thumb"><img src="template/img/murals/mural-9.jpg" alt=""></div>
+	  </div>
+	</div>
+	
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.6.1/dist/panzoom.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+<script src="/template/js/app.js"></script>
+</body>
+</html>
