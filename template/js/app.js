@@ -218,7 +218,7 @@ const murals = [
     lat: 49.951845, 
     lng: 82.610957,
     description: "Алия Молдагулова - участница Великой Отечественной войны, снайпер 54-й отдельной стрелковой бригады 22-й армии 2-го Прибалтийского фронта, ефрейтор. Герой Советского Союза.",
-    img: "template/img/murals/mural-1.jpg"
+    img: "template/img/murals/mural-1.png"
   },
   {
     title: "Мурал «Девушка в степи»",
@@ -231,44 +231,44 @@ const murals = [
     lat: 49.950907,
     lng: 82.621744,
     description: "На нем изображен мальчик, который держит в руках государственный флаг.",
-    img: "template/img/murals/mural-3.jpg"
+    img: "template/img/murals/mural-3.png"
   },
   {
     title: "Мурал «Воздушный шар»",
     lat: 49.952393,
     lng: 82.621744,
-    img: "template/img/murals/mural-4.jpg"
+    img: "template/img/murals/mural-4.png"
   },
   {
     title: "Мурал «Девочка, рисующая на стене»",
     lat: 49.949263, 
     lng: 82.625619,
-    img: "template/img/murals/mural-5.jpg"
+    img: "template/img/murals/mural-5.png"
   },
   {
     title: "Мурал «Мальчик-хоккеист»",
     lat: 49.951469, 
     lng: 82.616516,
-    img: "template/img/murals/mural-6.jpg"
+    img: "template/img/murals/mural-6.png"
   },
   {
     title: "Мурал «Абай Кунанбаев»",
     lat: 49.958773, 
     lng: 82.614111,
     description: "Надпись внизу - одно из назиданий поэта: \"Люби всё человечество, как брата\".",
-    img: "template/img/murals/mural-7.jpg"
+    img: "template/img/murals/mural-7.png"
   },
   {
     title: "Мурал «Город металлургов»",
     lat: 49.96766, 
     lng: 82.595097,
-    img: "template/img/murals/mural-8.jpg"
+    img: "template/img/murals/mural-8.png"
   },
   {
     title: "Мурал «Талгат Жайлауов»",
     lat: 49.978912, 
     lng: 82.580989,
-    img: "template/img/murals/mural-9.jpg"
+    img: "template/img/murals/mural-9.png"
   },
 ];
 

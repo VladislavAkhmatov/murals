@@ -33,11 +33,13 @@ body {
   height: min(70vh, 620px);
 }
 
-.scene-img {
+.scene-img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;     /* было cover */
+  object-position: center; /* по центру */
   display: block;
+  background: #111;        /* чтобы поля (если появятся) выглядели нормально */
 }
 
 .hotspot {
@@ -118,16 +120,6 @@ body {
 
 .zoom-wrap.zoomed {
   cursor: zoom-out !important;
-}
-
-.scene-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transform-origin: 0 0;
-  user-select: none;
-  -webkit-user-drag: none;
 }
 
 .zoom-ui{
