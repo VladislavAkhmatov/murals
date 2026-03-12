@@ -217,58 +217,43 @@ const murals = [
     title: "Мурал «Алия Молдагулова»",
     lat: 49.951845, 
     lng: 82.610957,
-    description: "Алия Молдагулова - участница Великой Отечественной войны, снайпер 54-й отдельной стрелковой бригады 22-й армии 2-го Прибалтийского фронта, ефрейтор. Герой Советского Союза.",
-    img: "template/img/murals/mural-1.png"
-  },
-  {
-    title: "Мурал «Девушка в степи»",
-    lat: 49.946561,
-    lng: 82.611764,
-    img: "template/img/murals/mural-2.png"
-  },
-  {
-    title: "Мурал «Мальчик с флагом Казахстана»",
-    lat: 49.950907,
-    lng: 82.621744,
-    description: "На нем изображен мальчик, который держит в руках государственный флаг.",
-    img: "template/img/murals/mural-3.png"
-  },
-  {
-    title: "Мурал «Воздушный шар»",
-    lat: 49.952393,
-    lng: 82.621744,
-    img: "template/img/murals/mural-4.png"
-  },
-  {
-    title: "Мурал «Девочка, рисующая на стене»",
-    lat: 49.949263, 
-    lng: 82.625619,
-    img: "template/img/murals/mural-5.png"
+    description: "​Улица Протозанова, 79",
+    img: "template/img/murals/mural12.jpg"
   },
   {
     title: "Мурал «Мальчик-хоккеист»",
     lat: 49.951469, 
+    description: "Улица Максима Горького, 82",
     lng: 82.616516,
-    img: "template/img/murals/mural-6.png"
+    img: "template/img/murals/mural11.jpg"
   },
   {
     title: "Мурал «Абай Кунанбаев»",
     lat: 49.958773, 
     lng: 82.614111,
-    description: "Надпись внизу - одно из назиданий поэта: \"Люби всё человечество, как брата\".",
-    img: "template/img/murals/mural-7.png"
+    description: "Проспект Абая, 1",
+    img: "template/img/murals/mural13.jpg"
   },
   {
     title: "Мурал «Город металлургов»",
     lat: 49.96766, 
     lng: 82.595097,
-    img: "template/img/murals/mural-8.png"
+    description: "Нурсултана Назарбаева проспект, 33",
+    img: "template/img/murals/mural14.jpg"
   },
   {
     title: "Мурал «Талгат Жайлауов»",
     lat: 49.978912, 
     lng: 82.580989,
-    img: "template/img/murals/mural-9.png"
+    description: "Нурсултана Назарбаева проспект, 71",
+    img: "template/img/murals/mural15.jpg"
+  },
+  {
+    title: "Мурал «Бауыржан Момышулы»",
+    lat: 49.951415, 
+    lng: 82.635804,
+    description: "Улица Кабанбай батыра, 136",
+    img: "template/img/murals/mural10.jpeg"
   },
 ];
 
